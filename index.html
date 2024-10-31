@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Créé par Netrou</title>
+    <style>
+        body {
+            background-color: black;
+            color: orange;
+            font-family: Arial, sans-serif;
+        }
+        #quiz, #result, #loss {
+            display: none;
+            border: 2px solid orange;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+        button {
+            background-color: orange;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: darkorange;
+        }
+        #header {
+            text-align: center;
+            margin: 20px;
+            font-size: 24px;
+        }
+        #loss {
+            background-color: red;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="header">Créé par Netrou</div>
+<div id="quiz">
+    <div id="counter"></div> <!-- Ajoutez cette ligne pour le compteur -->
+    <div id="question"></div>
+    <div id="answers"></div>
+</div>
+<div id="result"></div>
+<div id="loss"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
+    
